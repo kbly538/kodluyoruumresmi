@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@300;400;500&display=swap');
+
+/***** RESET *****/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code,del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var, b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    
+    /*font-size: 100%;
+    vertical-align: baseline;*/
+    
+}
+html, body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Kiwi Maru', serif;
+    
+    
+}
+
+body {
+    background-image: linear-gradient(#000,#023047);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.navbarx {width: 100%; height: 4rem; background-color: #023047; border-bottom: 0.1rem solid #FFB703; padding: 0;}
+div {border: 0px solid rgb(53, 44, 44); color: #fff; font-size: 1.2rem}
+.K {width: 3%; padding: 0.6rem 0rem 0.6rem 0rem; float: left; text-align: right; color: #fff; font-size: 2rem;}
+.odluyoruum {width: 11%; padding: 1.3rem 0.2rem 0rem 0.35rem; padding-right: 0px; float: left; text-align: left; font-size: 1.3rem; color: #FFB703; letter-spacing: 0.35rem;}
+.login { width: auto; height: 3rem; padding: 1rem 2rem 0rem 2rem; margin: auto; float: right; color: #FFB703; }
+.nav-link {float: right; padding: 1rem 1rem 0rem 1rem;}
+.navbarx a {text-decoration: none; color: #fff;  font-size: 1.4rem;}
+.navbarx a:hover {color: #FFB703;}
+
+body {overflow-x: hidden;}
+.govde {height: auto;}
+.anasayfa-ustkısım {width: 100%; height: auto;}
+.K2  {width: auto; margin: 3rem auto 1.5rem 8rem; font-size: 2.5rem;}
+.K2text {width: auto; margin: 1rem auto auto -2rem; font-size: 1rem;}
+.lorem {font-size: 10rem; width: 2rem;  margin-top: -2rem; margin-left: 6rem; float: left; color: #FFB703; }
+.loremtext {width: 35%; height: auto; margin-left: 10rem; padding: 20px 0 0 10px; line-height: 3rem;}
+.kyakatıl {float: right; width: 460px; height: auto; position: relative; margin: -10rem 10rem auto auto; padding: 2rem 0.5rem 2rem 0.5rem; border: 1px solid #FFB703;}
+.kyakatıltext {margin: -3.3rem auto auto 1rem; padding-left: 1px; position: absolute; float: right; width: 25rem; background: #000; text-align: center; letter-spacing: 0.5rem;}
+.yb {margin: auto 0.6rem auto 0.6rem;}
+.ya {margin: auto 0.9rem auto 0.9rem;}
+
+.anasayfa-altkısım {margin-top: 1rem;}
+.altkısım-ilkkısım {height: auto; width: 700px; margin: 4rem auto auto 8rem; float: left;}
+.bizkimizulan {height: auto; font-size: 4rem; border-bottom: 3px solid linear-gradient(#000,#023047); letter-spacing: 0.5rem; color: #FFB703;}
+.cubuhk {width: auto; height: 0.12rem; margin: 1.3rem auto auto auto; background-image: linear-gradient(to right, yellow,red); border: 0px solid #000;}
+.bizkimiztext {height: auto; width: auto; margin: 2.3rem auto 4.5rem auto;}
+.bizkimiztext-2 {height: auto; width: auto;}
+.altkısım-ikincikısım {float:right; margin: 10rem 1rem 10rem auto; padding-right: 100px}
+.altkısım-ikincikısım>img{width: 500px; height: auto}
+
+
+.kyakatıl img  {
+    width: 64px;
+}

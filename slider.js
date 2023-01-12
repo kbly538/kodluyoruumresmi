@@ -7,20 +7,30 @@ let activeCard = document.querySelector(".slider-card.active");
 const activateCard = (e) => {
   let activeCard = document.querySelector(".slider-card.active");
   
-  const card = e.target;
-  let bookmark = card.querySelector('.bookmark');
+  
+  let card;
+  
+
+  if (e.target.classList.contains('button')){
+    card = e.target.parentElement;
+  } else {
+    card = e.target;
+  }
+
+
+  let bookmark = card.querySelector('.bookmark')
+
 
   if (card.parentElement !== activeCard) {
     activeCard.classList.remove("active");
     let activeBookmark = activeCard.querySelector('.bookmark');
     activeBookmark.classList.toggle('active')
-    console.log((activeCard.firstElementChild.style.opactiy = "0"));
   } else {
     return;
   }
 
   bookmark.classList.add('active');
-  e.target.classList.add("active");
+  card.classList.add("active");
   card.firstElementChild.style.opacity = "100%";
 };
 
