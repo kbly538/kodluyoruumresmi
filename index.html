@@ -1,21 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Test Doc</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="slider.css">
+    <script src="slider.js" defer></script>
 </head>
+
 <body>
-    <nav class="navbar">
-        <ul class="nav-links">
-            <li class="link nav"><a href="#">Hakkında</a></li>
-            <li class="link nav"><a href="uyelerimiz.html">Üyelerimiz</a></li>
-            <li class="link nav"><a href="iletisim.html">İletişim</a></li>
-            <li class="link nav"><a href="sss.html">S.S.S.</a></li>
-            <li class="link nav"><a href="#">|  Login</a></li>
-        </ul>
-    </nav>
+    <div class="slider-container">
+        <div class="slider-arrow left"></div>
+        <div class="slider-card-container">
+            <div class="slider-card one active ">
+                <div class="active-card-overlay "></div>
+                <div class="bookmark active"></div>
+                <div class="button hakkimizda">Hakkımızda</div>
+            </div>
+            <div class="slider-card two  " >
+                <div class="active-card-overlay "></div>
+                <div class="bookmark "></div>
+                <div class="button uyelerimiz">Üyelerimiz</div>
+            </div>
+            <div class="slider-card three ">
+                <div class="active-card-overlay "></div>
+                <div class="bookmark "></div>
+                <div class="button calismalar">Çalışmalar</div>
+            </div>
+            <div class="slider-card four  ">
+                <div class="active-card-overlay"></div>
+                <div class="bookmark "></div>
+                <div class="button iletisim">İletişim</div>
+            </div>
+            <div class="slider-card five ">
+                <div class="active-card-overlay "></div>
+                <div class="bookmark "></div>
+                <div class="button sss">S.S.S.</div>
+            </div>
+        </div>
+        <div class="slider-arrow right"></div>
+    </div>
+
 </body>
+
 </html>
