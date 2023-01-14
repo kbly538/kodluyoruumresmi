@@ -55,7 +55,7 @@ body {
  .yb {margin: auto 0.6rem auto 0.6rem;}
  .ya {margin: auto 0.9rem auto 0.9rem;}
 
- .anasayfa-altkısım {margin-top: 5rem;}
+ .anasayfa-altkısım {margin-top: 4.5rem;}
  .altkısım-ilkkısım {height: auto; width: 45%; margin: 4rem auto auto 8rem; float: left;}
  .bizkimizulan {height: auto; font-size: 4rem; border-bottom: 3px solid linear-gradient(#000,#023047); letter-spacing: 0.5rem; color: #FFB703;}
  .cubuhk {width: auto; height: 0.12rem; margin: 1.3rem auto auto auto; background-image: linear-gradient(to right, yellow,red); border: 0px solid #000;}
