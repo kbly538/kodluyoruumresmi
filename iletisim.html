@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="iletisim.css">
-    <link rel="stylesheet" href="ultimain.css">
+    <link rel="stylesheet" href="style.css">
     <title>İletişim</title>
 </head>
 
@@ -24,27 +24,42 @@
         <div class="nav-link"><a href="index.html#bizkimizmetin">Hakkımızda</a></div>
     </div>
 
-    <div class="maindivclass">
-        <div class="yazidiv1">
-            <p class="yazi1"><b>Bize ulaşın!</b></p>
-        </div>
+    <h1 id="iletisim-title">Bize Ulaşın!</h1>
+    <div class="divider"></div>
 
-        <div class="iletisimdivclass">
-            <form action="" method="POST">
-                <h5 class="emailclass">Email Adresi</h5>
-                <input type="email" name="email" id="email" placeholder="ornek@email.com" />
-                <h5 class="mesajclass">Mesaj</h5>
-                <textarea class="filter" name="text" id="message" placeholder="Sevgili kodluyorum..."></textarea><br />
-                <div class="buttonclasswrapper"><button class="buttonclass1">Gönder</button></div>
-            </form>
-        </div>
-        <div class="yazidiv2">
-            <p class="yazi2">Bizimle sosyal medya kanalları<br />üzerinden de iletişime<br />geçebilirsin!</p>
-            <div class="svgdivclass">
-                <img src="./pictures/kodluyoruumlogo01.svg" />
+    <div class="maindivclass">
+        
+
+        <div class="body-container">
+            <div class="iletisimdivclass">
+                <form action="" method="POST">
+                    <h5 class="emailclass">Email Adresi</h5>
+                    <input type="email" name="email" id="email" placeholder="ornek@email.com" />
+                    <h5 class="mesajclass">Mesaj</h5>
+                    <textarea class="filter" name="text" id="message" placeholder="Sevgili kodluyorum..."></textarea><br />
+                    <div class="iletisim-button-wrapper">
+                        <div class="iletisim-gonder-button">Gönder</div>
+                    </div>
+                </form>
+            </div>
+            <div class="right-side">
+                <div class="social-flex">
+                    <div class="parantezdivclass">
+                        <img src="pictures/parant.svg" />
+                    </div>
+                    <div class="yazidiv2">
+                        <p id="iletisim-sosyal-text">Bizimle sosyal medya kanalları<br />üzerinden de iletişime<br />geçebilirsin!</p>
+                    </div>
+                </div>
+                <div class="right-side-social">
+                    <a href="" class="ya"><img src="ikonlar/z-nebilmiyom.png" width="85"></a>
+                    <a href="" class="ya"><img src="ikonlar/z-instagram.png" width="85"></a>
+                    <a href="" class="yb"><img src="ikonlar/z-discord.png" width="100"></a>
+                    <a href="" class="yb"><img src="ikonlar/z-telegram.png" width="100"></a>
+                    <a href="" class="yb"><img src="ikonlar/z-youtube.png" width="100"></a>
+                </div>
             </div>
         </div>
-        
     </div>
 
 </body>

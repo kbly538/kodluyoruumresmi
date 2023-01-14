@@ -1,4 +1,4 @@
-.filter {
+/* .filter {
     position: relative;
     width: 450px;
     height: 150px;
@@ -87,3 +87,161 @@ input {
     display: flex;
     justify-content: right;
 }
+ */
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@300;400;500&display=swap');
+
+
+
+ #iletisim-title {
+
+    color:#FFB703;
+    margin: 38px 0 0 65px;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 75px;
+}
+
+.divider {
+    width: 50%;
+    height: 2px;
+    margin-top: 20px;
+    margin-left: 65px;
+    background-image: linear-gradient(to right, #ffb8034d,rgb(139, 50, 50));
+    border-radius: 4px;
+}
+
+
+ 
+
+ .filter {
+    position: relative;
+    font-size: 1.5rem;
+    width: 827px;
+    height: 300px;
+    border-radius: 5px;
+    outline: none;
+    padding: 10px;
+    border: 3px solid #FFB703;
+    background-color: #ffb80300;
+    color: white;
+}
+.placeholder {
+    position: absolute;
+    left: 0px;
+    top: 150px;
+    padding: 0 20px;
+}
+.filter:focus ~ .placeholder,
+.filter:valid ~ .placeholder {
+    display: none;
+}
+
+input {
+    width: 827px;
+    height: 28px;
+    border-radius: 5px;
+    outline: none;
+    padding: 10px;
+    border: 3px solid #FFB703;
+    margin: 5px 0 20px 0;
+    color: white;
+    background-color: #ffb80300;
+    font-size: 1.5rem;
+}
+
+.iletisim-button-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    padding-top: 10px;
+    gap: 10px;
+    
+}
+
+.iletisim-gonder-button {
+    border: 1px solid black;
+    padding: 12px 24px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+}
+
+
+/* 
+.yazi2 {
+    font-size: 1.7rem;
+    margin-left: 20px;
+    margin-bottom: 5px;
+    font-family:  'Kiwi Maru', serif;
+} */
+
+#iletisim-sosyal-text {
+    font-size: 1.7rem;
+    margin-left: 20px;
+    margin-bottom: 5px;
+    font-family:  'Kiwi Maru', serif;
+}
+
+
+.emailclass {
+    font-size: medium;
+    font-family:  'Kiwi Maru', serif;;
+}
+.mesajclass {
+    font-size: medium;
+    font-family:  'Kiwi Maru', serif;;
+}
+.maindivclass {
+    margin: auto;
+}
+/* .iletisimdivclass {
+    width: 400px;
+    height: 50px;
+    margin: 20px;
+    padding: 20px;
+} */
+
+.svgdivclass {
+    margin-left: 800px;
+    width: 400px;
+    height: 200px;
+    
+}
+
+
+.social-flex {
+    width: 500px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    
+}
+
+.right-side {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+
+.body-container {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    margin: 100px  151px 0 151px;
+    gap: 5px;
+    justify-content: space-between;
+    align-items: center;
+    font-family:  'Kiwi Maru', serif;;
+}
+
+.right-side-social {
+    border: 2px solid #FFB703;
+    padding: 20px;
+}
+
