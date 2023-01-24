@@ -17,5 +17,5 @@ jobs:
         server: ftpupload.net
         username: ${{ secrets.ftp_username2 }}
         password: ${{ secrets.ftp_password2 }}
-        server-dir: /htdocs/kodluyoruumresmi/test_CI/staging/
+        server-dir: /htdocs/kodluyoruumresmi/test_v2
         
