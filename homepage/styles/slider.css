@@ -47,31 +47,31 @@
 }
 
 .slider-card.one{
-    background-image: url(slider_images/umberto-unsplash.jpg);
+    background-image: url(../assets/slider_images/umberto-unsplash.jpg);
     background-repeat: no-repeat;
     background-attachment: local;
     background-size: cover;  
 }
 .slider-card.two{
-    background-image: url(slider_images/karl-pawlowicz-QUHuwyNgSA0-unsplash.jpg); 
+    background-image: url(../assets/slider_images/karl-pawlowicz-QUHuwyNgSA0-unsplash.jpg); 
     background-repeat: no-repeat;
     background-attachment: local;
     background-size: cover;  
 }
 .slider-card.three{
-    background-image: url(slider_images/markus-spiske-Fa0pTKuoDVY-unsplash.jpg);
+    background-image: url(../assets/slider_images/markus-spiske-Fa0pTKuoDVY-unsplash.jpg);
     background-repeat: no-repeat;
     background-attachment: local;
     background-size: 100% 100%;  
 }
 .slider-card.four{
-    background-image: url(slider_images/michael-dziedzic-gEN5Btvf2Eg-unsplash.jpg);
+    background-image: url(../assets/slider_images/michael-dziedzic-gEN5Btvf2Eg-unsplash.jpg);
     background-repeat: no-repeat;
     background-attachment: local;
     background-size: cover;  
 }
 .slider-card.five{
-    background-image: url(slider_images/pankaj-patel-Fi-GJaLRGKc-unsplash.jpg);
+    background-image: url(../assets/slider_images/pankaj-patel-Fi-GJaLRGKc-unsplash.jpg);
     background-repeat: no-repeat;
     background-attachment: local;
     background-size: cover;  
