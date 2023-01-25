@@ -92,7 +92,6 @@
 .member-connect .member-social {
     width: 100px;
     height: 100%;
-   
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -114,22 +113,21 @@
 
 /* .member-social .git {
 
-    background-color: red;
+
 }
 
 .member-social .linkedin {
 
-    background-color: green;
 } */
 
 /* .member-cv .dl-link{
     width: 8px;
     height: 8px;
-    background-color: red;
+
 }
 
 .member-cv .modal{
     width: 8px;
     height: 8px;
-    background-color: green;
+
 } */
