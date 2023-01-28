@@ -1,0 +1,295 @@
+{
+    "description": "DO NOT DELETE THIS FILE. This file is used to keep track of which files have been synced in the most recent deployment. If you delete this file a resync will need to be done (which can take a while) - read more: https://github.com/SamKirkland/FTP-Deploy-Action",
+    "version": "1.0.0",
+    "generatedTime": 1674599146181,
+    "data": [
+        {
+            "type": "file",
+            "name": "LICENSE",
+            "size": 11357,
+            "hash": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+        },
+        {
+            "type": "file",
+            "name": "README.md",
+            "size": 60,
+            "hash": "3419b3c6457dd6a0c71321ba5683eaa60af432c65fac53e267a75fe9e0b93787"
+        },
+        {
+            "type": "folder",
+            "name": "calismalar"
+        },
+        {
+            "type": "folder",
+            "name": "commons"
+        },
+        {
+            "type": "folder",
+            "name": "homepage"
+        },
+        {
+            "type": "folder",
+            "name": "iletisim"
+        },
+        {
+            "type": "file",
+            "name": "index.html",
+            "size": 5678,
+            "hash": "f41722887b4ae2d70e72a97f686a91a987c5e54592e3a512293f64a7baa06fd3"
+        },
+        {
+            "type": "folder",
+            "name": "sss"
+        },
+        {
+            "type": "folder",
+            "name": "uyelerimiz"
+        },
+        {
+            "type": "file",
+            "name": "calismalar/calismalar.html",
+            "size": 1019,
+            "hash": "59895f209325a5de0ce081331a8a7a568dfc072979ab1dcf046c1a0a7af6d0e9"
+        },
+        {
+            "type": "folder",
+            "name": "commons/assets"
+        },
+        {
+            "type": "folder",
+            "name": "commons/styles"
+        },
+        {
+            "type": "folder",
+            "name": "homepage/assets"
+        },
+        {
+            "type": "folder",
+            "name": "homepage/js"
+        },
+        {
+            "type": "folder",
+            "name": "homepage/styles"
+        },
+        {
+            "type": "folder",
+            "name": "iletisim/assets"
+        },
+        {
+            "type": "file",
+            "name": "iletisim/iletisim.html",
+            "size": 3141,
+            "hash": "9f7cac785ab1b131cfa85f35ec464ffbc7d9b466ba7ce6e3495e758abf1a2070"
+        },
+        {
+            "type": "folder",
+            "name": "iletisim/styles"
+        },
+        {
+            "type": "folder",
+            "name": "sss/js"
+        },
+        {
+            "type": "file",
+            "name": "sss/sss.html",
+            "size": 4302,
+            "hash": "66a433a523e7e057ce3f3d58857c65307af89f4b273d25d294d6f7bb648d1efe"
+        },
+        {
+            "type": "folder",
+            "name": "sss/styles"
+        },
+        {
+            "type": "folder",
+            "name": "uyelerimiz/styles"
+        },
+        {
+            "type": "file",
+            "name": "uyelerimiz/uyelerimiz.html",
+            "size": 2692,
+            "hash": "1b9e8a737526be7d71e4ce708d3f67621e9cee6c100f06a24087818f8ef2c3e2"
+        },
+        {
+            "type": "folder",
+            "name": "commons/assets/sosyal_ikonlar"
+        },
+        {
+            "type": "file",
+            "name": "commons/styles/2reset.css",
+            "size": 1092,
+            "hash": "ed555a279183c054222c873e78d92c40b512498e49359b6abfda36048f141988"
+        },
+        {
+            "type": "file",
+            "name": "commons/styles/globalstyle.css",
+            "size": 4132,
+            "hash": "0e1cd1a0da47fc2e5ea6715e9535e03fbd1568342fe51aa4d0b24c37be9edd2b"
+        },
+        {
+            "type": "folder",
+            "name": "homepage/assets/slider_images"
+        },
+        {
+            "type": "file",
+            "name": "homepage/js/slider.js",
+            "size": 2462,
+            "hash": "f69435fd9d6138f7d454bac095fbaf759321f455a156a05d43724ae925f46839"
+        },
+        {
+            "type": "file",
+            "name": "homepage/styles/slider.css",
+            "size": 3955,
+            "hash": "ce86937f24427e74e27b430d8af31a883d9efbbdde0cc6a926a279decf68cf71"
+        },
+        {
+            "type": "file",
+            "name": "iletisim/assets/kodluyoruumlogo01.svg",
+            "size": 4599,
+            "hash": "ce126d6164c10288791ced8a85fd8a1020cce1f1e0b5c3dea5d26126e8bf5221"
+        },
+        {
+            "type": "file",
+            "name": "iletisim/assets/parant.svg",
+            "size": 1231,
+            "hash": "bab2621977e0af9c78475a8f3ab3e789c3f72a15cfde0405967e426bc7ec5897"
+        },
+        {
+            "type": "file",
+            "name": "iletisim/styles/iletisim.css",
+            "size": 4142,
+            "hash": "5d9eec9a3393b446bac91db96cb4c4976c5254a79c5e3a17da4bfa4a9104a0ea"
+        },
+        {
+            "type": "file",
+            "name": "sss/js/sss.js",
+            "size": 423,
+            "hash": "8861a13fe6ce829c553f26404a76ece5a589b675541a2d871fca4f833e0ca29d"
+        },
+        {
+            "type": "file",
+            "name": "sss/styles/sss.css",
+            "size": 2023,
+            "hash": "1d99dbedd9b11525dd6c0139b7a31111836186fc0d4263e8abeb95dc8d4b36fa"
+        },
+        {
+            "type": "file",
+            "name": "sss/styles/sss.css.map",
+            "size": 969,
+            "hash": "0591e6e00bda287c39109f792fc77065cbc7eb2382f698699ce9efad7596095e"
+        },
+        {
+            "type": "file",
+            "name": "sss/styles/sss.scss",
+            "size": 2651,
+            "hash": "ee10770549ab7ef882ae38506d30452ddf33f5ef7814f21c2207c82e4eea379c"
+        },
+        {
+            "type": "file",
+            "name": "uyelerimiz/styles/uyelerstyle.css",
+            "size": 1743,
+            "hash": "d7eafb0b4cafa8c4c26924479c7af34e7f8e333f7a57b41544576f7c8bed7134"
+        },
+        {
+            "type": "file",
+            "name": "commons/assets/sosyal_ikonlar/Ekran Alıntısı.PNG",
+            "size": 59216,
+            "hash": "638d4ed21eb4dbc45e46c82ad147bc55a83b8dd2d760e5f6f1f6d1942649ea39"
+        },
+        {
+            "type": "file",
+            "name": "commons/assets/sosyal_ikonlar/Social_Timelinesociotime.png",
+            "size": 36742,
+            "hash": "c9c07a44894835609877bba6dca4f702f21d825b31e3141a5f9e4b375c612a5d"
+        },
+        {
+            "type": "file",
+            "name": "commons/assets/sosyal_ikonlar/ayarlar.png",
+            "size": 811,
+            "hash": "7f252cf2c220e1fd1ce54dffee0252e7d541ddf11ef7ee8a98893f5785a278b7"
+        },
+        {
+            "type": "file",
+            "name": "commons/assets/sosyal_ikonlar/mesajlar.png",
+            "size": 251,
+            "hash": "b68f9c72ff765e572c9d33f316e8379764e7cbe5cc78a979b5d2c28d943dfc6b"
+        },
+        {
+            "type": "file",
+            "name": "commons/assets/sosyal_ikonlar/paylas.png",
+            "size": 541,
+            "hash": "a39cd8e0c2951c6f33614d18413ca100a58f8df199cddf181537f9559915c3a5"
+        },
+        {
+            "type": "file",
+            "name": "commons/assets/sosyal_ikonlar/profil.png",
+            "size": 1151,
+            "hash": "f06c363f39615ea8d80298bd626506650e841d1f14a43d473c5e4084a5830f33"
+        },
+        {
+            "type": "file",
+            "name": "commons/assets/sosyal_ikonlar/z-discord.png",
+            "size": 1601,
+            "hash": "ccc423a1e99e5c07c16a4b33a05d57682d178a6111fbf2bdeead8c8c76e21647"
+        },
+        {
+            "type": "file",
+            "name": "commons/assets/sosyal_ikonlar/z-instagram.png",
+            "size": 2047,
+            "hash": "ace73e3a87c92fde7178647e09ca26c3af6d04f53fcf07c497f92a2eba0ffb36"
+        },
+        {
+            "type": "file",
+            "name": "commons/assets/sosyal_ikonlar/z-nebilmiyom.png",
+            "size": 1432,
+            "hash": "07196bbb3438f34c190fb6325497d19f47081baccb30555cfa0bb4a715c8df6c"
+        },
+        {
+            "type": "file",
+            "name": "commons/assets/sosyal_ikonlar/z-telegram.png",
+            "size": 1827,
+            "hash": "c1d3cf7c7deae711cadda9bd44284e0ca3915ba3574f10fcf9e304558fb21989"
+        },
+        {
+            "type": "file",
+            "name": "commons/assets/sosyal_ikonlar/z-youtube.png",
+            "size": 1169,
+            "hash": "0b71e680ba24d6155d4044f9003202690c21a563688071f7e500568b531e6a4e"
+        },
+        {
+            "type": "file",
+            "name": "commons/assets/sosyal_ikonlar/çıkış yap.png",
+            "size": 441,
+            "hash": "4c875f967ea361462679610172a9dbaf619f726069edb0db9a812943e3deb81c"
+        },
+        {
+            "type": "file",
+            "name": "homepage/assets/slider_images/karl-pawlowicz-QUHuwyNgSA0-unsplash.jpg",
+            "size": 81117,
+            "hash": "52f9327d59a3f1ea71b7e3e5176b8ed92eac786d6d065c5a4d150856c95b6c53"
+        },
+        {
+            "type": "file",
+            "name": "homepage/assets/slider_images/markus-spiske-Fa0pTKuoDVY-unsplash.jpg",
+            "size": 96202,
+            "hash": "fb804f690e08b0bcca942e13d8b9d00aaf163d055dbf889fcfe162b6a5fe6f90"
+        },
+        {
+            "type": "file",
+            "name": "homepage/assets/slider_images/michael-dziedzic-gEN5Btvf2Eg-unsplash.jpg",
+            "size": 23043,
+            "hash": "c55a383e725225373790e58588f70818e5153f57ec8971bd67d5af10f35b5afe"
+        },
+        {
+            "type": "file",
+            "name": "homepage/assets/slider_images/pankaj-patel-Fi-GJaLRGKc-unsplash.jpg",
+            "size": 35642,
+            "hash": "449712b69e73ad6808865d3661ec8e945b004650c78177311ef2fa4875710f37"
+        },
+        {
+            "type": "file",
+            "name": "homepage/assets/slider_images/umberto-unsplash.jpg",
+            "size": 112842,
+            "hash": "2e351002b29fc0f66f61e2e526b49214e42055556504add84f32dc6d481a2071"
+        }
+    ]
+}

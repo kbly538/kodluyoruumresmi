@@ -6,6 +6,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 
@@ -131,3 +132,61 @@
     height: 8px;
 
 } */
+
+
+.paginator {
+    color: #FFB703;
+    position: relative;
+    min-width: 500px;
+    max-width: 500px;
+    height: 100px;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+}
+
+.uyelerimiz-pages {
+    margin: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.uyelerimiz-pages div {
+    text-decoration: none;
+    color: #FFB703;
+    cursor: pointer;
+}
+
+
+.paginator div:hover {
+    text-decoration: none;
+    color: #FFB703;
+}
+
+.uyelerimiz-pages div:hover{
+    scale: 1.6;
+    font-weight: bold;
+}
+
+.uyelerimiz-left-arrow, 
+.uyelerimiz-right-arrow, 
+.uyelerimiz-left-arrow a, 
+.uyelerimiz-right-arrow a, 
+.uyelerimiz-left-arrow a:visited, 
+.uyelerimiz-right-arrow a:visited,
+.uyelerimiz-left-arrow a:hover, 
+.uyelerimiz-right-arrow a:hover 
+
+{
+    color: #FFB703;
+    text-decoration: none;
+    cursor: pointer;
+    
+}
+
+
+.active-page {
+    scale: 2
+}

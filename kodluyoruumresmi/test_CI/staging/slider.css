@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+body {
+    background: linear-gradient(black, #023047);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+
+.slider-container {
+    width: 1501px;
+    height: 395px;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: horizontal;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.slider-card-container {
+
+    display: flex;
+    flex-direction: horizontal;
+    justify-content: space-around;
+    align-items: center;
+    gap: 58px;
+}
+
+.slider-card {
+    height: 300px;
+    width: 200px;
+    border: solid 2px #FFB703;
+    border-radius: 10px;
+    position: relative;
+    opacity: 35%;
+    transition:  all 0.3s;
+}
+
+.slider-card.one{
+    background-image: url(slider_images/umberto-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-size: cover;  
+}
+.slider-card.two{
+    background-image: url(slider_images/karl-pawlowicz-QUHuwyNgSA0-unsplash.jpg); 
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-size: cover;  
+}
+.slider-card.three{
+    background-image: url(slider_images/markus-spiske-Fa0pTKuoDVY-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-size: 100% 100%;  
+}
+.slider-card.four{
+    background-image: url(slider_images/michael-dziedzic-gEN5Btvf2Eg-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-size: cover;  
+}
+.slider-card.five{
+    background-image: url(slider_images/pankaj-patel-Fi-GJaLRGKc-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-size: cover;  
+}
+
+
+.button{
+    position: absolute;
+    width: 150px;
+    height: 33px;
+    
+    background-color: #FFB703;
+    
+    
+    border: solid 2px black;
+    border-radius: 10px;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    margin: 0px auto;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    line-height: 33px;
+    text-align: center;
+    color:black;
+
+    z-index: 120;
+
+    transition: all 0.3s;
+}
+
+.slider-card.active > div.button {
+    width: 200px;
+    height: 60px;
+    background-color: #023047;
+
+    border: solid 2px black;
+    box-shadow: 0 10px 10px black;;
+    
+    font-size: 26px;
+    line-height: 60px;
+    text-align: center;
+    color:white;
+
+    bottom: 60px;
+
+    z-index: 2;
+
+}
+
+
+.active-card-overlay {
+    opacity: 0%;
+    position: absolute;
+    height: 0;
+    width: 200px;
+}
+
+
+.active > div.active-card-overlay{
+    width: 100%;
+    height: 90%;
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+    background: linear-gradient(rgba(255, 255, 255, 0.046), #FFB703);
+    transition: width 0.1s, height 0.3s;
+    opacity: 1;
+    left: 0;
+
+
+}
+
+
+
+.slider-card.active {
+    height: 395px;
+    width: 300px;
+    opacity: 100%;
+}
+
+
+
+.slider-arrow {
+    cursor: pointer;
+}
+
+
+
+.slider-arrow.left {
+  width: 0; 
+  height: 0;
+  margin-right: 41px;
+  border-top: 60px solid transparent;
+  border-bottom: 60px solid transparent; 
+  border-right:30px solid #FFB703; 
+  
+}
+
+.slider-arrow.right {
+    width: 0; 
+    height: 0; 
+    margin-left: 41px;
+    border-top: 60px solid transparent;
+    border-bottom: 60px solid transparent;
+    border-left: 30px solid #FFB703;
+}
+
+.slider-arrow.left:active {
+    border-right: 30px solid #bf8900;
+}
+
+.slider-arrow.right:active {
+    border-left: 30px solid #bf8900;
+}
+
+
+.bookmark {
+    position: absolute;
+    width: 30px;
+    height: 70px;
+    background-color: rgb(162, 50, 20);
+    opacity: 0;
+    right: 30px;
+    top: -20px;
+    transition: 0.4s;
+    border: solid 1px rgb(255, 162, 162);
+}
+
+.bookmark.active {
+    position: absolute;
+    opacity: 1;
+    top: -2px;
+    right: 30px;
+    
+}
